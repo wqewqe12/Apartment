@@ -1,8 +1,8 @@
-package com.atguigu.lease.web.admin.controller.apartment;
+package com.lpz.web.admin.controller.apartment;
 
 
-import com.atguigu.lease.common.result.Result;
-import com.atguigu.lease.model.entity.PaymentType;
+import com.lpz.common.result.Result;
+import com.lpz.model.entity.PaymentType;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

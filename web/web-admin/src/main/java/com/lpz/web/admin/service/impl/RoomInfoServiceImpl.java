@@ -1,15 +1,14 @@
-package com.atguigu.lease.web.admin.service.impl;
+package com.lpz.web.admin.service.impl;
 
-import com.atguigu.lease.model.entity.RoomInfo;
-import com.atguigu.lease.web.admin.mapper.RoomInfoMapper;
-import com.atguigu.lease.web.admin.service.RoomInfoService;
+import com.lpz.model.entity.RoomInfo;
+import com.lpz.web.admin.mapper.RoomInfoMapper;
+import com.lpz.web.admin.service.RoomInfoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**
- * @author liubo
+ * @author lpz
  * @description 针对表【room_info(房间信息表)】的数据库操作Service实现
- * @createDate 2023-07-24 15:48:00
  */
 @Service
 public class RoomInfoServiceImpl extends ServiceImpl<RoomInfoMapper, RoomInfo>

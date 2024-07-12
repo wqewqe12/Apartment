@@ -1,7 +1,7 @@
-package com.atguigu.lease.web.admin.vo.attr;
+package com.lpz.web.admin.vo.attr;
 
-import com.atguigu.lease.model.entity.AttrKey;
-import com.atguigu.lease.model.entity.AttrValue;
+import com.lpz.model.entity.AttrKey;
+import com.lpz.model.entity.AttrValue;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

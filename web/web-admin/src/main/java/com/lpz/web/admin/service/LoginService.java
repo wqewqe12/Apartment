@@ -1,8 +1,8 @@
-package com.atguigu.lease.web.admin.service;
+package com.lpz.web.admin.service;
 
-import com.atguigu.lease.web.admin.vo.login.CaptchaVo;
-import com.atguigu.lease.web.admin.vo.login.LoginVo;
-import com.atguigu.lease.web.admin.vo.system.user.SystemUserInfoVo;
+import com.lpz.web.admin.vo.login.CaptchaVo;
+import com.lpz.web.admin.vo.login.LoginVo;
+import com.lpz.web.admin.vo.system.user.SystemUserInfoVo;
 
 public interface LoginService {
 

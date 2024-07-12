@@ -1,10 +1,10 @@
-package com.atguigu.lease.web.admin.controller.apartment;
+package com.lpz.web.admin.controller.apartment;
 
 
-import com.atguigu.lease.common.result.Result;
-import com.atguigu.lease.model.entity.FeeKey;
-import com.atguigu.lease.model.entity.FeeValue;
-import com.atguigu.lease.web.admin.vo.fee.FeeKeyVo;
+import com.lpz.common.result.Result;
+import com.lpz.model.entity.FeeKey;
+import com.lpz.model.entity.FeeValue;
+import com.lpz.web.admin.vo.fee.FeeKeyVo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

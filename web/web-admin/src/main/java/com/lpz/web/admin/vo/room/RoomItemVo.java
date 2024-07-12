@@ -1,7 +1,7 @@
-package com.atguigu.lease.web.admin.vo.room;
+package com.lpz.web.admin.vo.room;
 
-import com.atguigu.lease.model.entity.ApartmentInfo;
-import com.atguigu.lease.model.entity.RoomInfo;
+import com.lpz.model.entity.ApartmentInfo;
+import com.lpz.model.entity.RoomInfo;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 

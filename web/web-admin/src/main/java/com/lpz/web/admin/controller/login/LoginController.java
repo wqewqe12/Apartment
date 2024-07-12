@@ -1,10 +1,10 @@
-package com.atguigu.lease.web.admin.controller.login;
+package com.lpz.web.admin.controller.login;
 
 
-import com.atguigu.lease.common.result.Result;
-import com.atguigu.lease.web.admin.vo.login.CaptchaVo;
-import com.atguigu.lease.web.admin.vo.login.LoginVo;
-import com.atguigu.lease.web.admin.vo.system.user.SystemUserInfoVo;
+import com.lpz.common.result.Result;
+import com.lpz.web.admin.vo.login.CaptchaVo;
+import com.lpz.web.admin.vo.login.LoginVo;
+import com.lpz.web.admin.vo.system.user.SystemUserInfoVo;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;

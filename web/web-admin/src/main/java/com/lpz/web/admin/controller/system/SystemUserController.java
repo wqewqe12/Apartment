@@ -1,11 +1,11 @@
-package com.atguigu.lease.web.admin.controller.system;
+package com.lpz.web.admin.controller.system;
 
 
-import com.atguigu.lease.common.result.Result;
-import com.atguigu.lease.model.entity.SystemUser;
-import com.atguigu.lease.model.enums.BaseStatus;
-import com.atguigu.lease.web.admin.vo.system.user.SystemUserItemVo;
-import com.atguigu.lease.web.admin.vo.system.user.SystemUserQueryVo;
+import com.lpz.common.result.Result;
+import com.lpz.model.entity.SystemUser;
+import com.lpz.model.enums.BaseStatus;
+import com.lpz.web.admin.vo.system.user.SystemUserItemVo;
+import com.lpz.web.admin.vo.system.user.SystemUserQueryVo;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

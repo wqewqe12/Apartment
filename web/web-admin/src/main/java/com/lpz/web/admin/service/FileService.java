@@ -1,4 +1,4 @@
-package com.atguigu.lease.web.admin.service;
+package com.lpz.web.admin.service;
 
 import org.springframework.web.multipart.MultipartFile;
 

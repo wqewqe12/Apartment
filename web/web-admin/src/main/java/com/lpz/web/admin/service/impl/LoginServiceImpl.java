@@ -1,6 +1,6 @@
-package com.atguigu.lease.web.admin.service.impl;
+package com.lpz.web.admin.service.impl;
 
-import com.atguigu.lease.web.admin.service.LoginService;
+import com.lpz.web.admin.service.LoginService;
 import org.springframework.stereotype.Service;
 
 @Service
