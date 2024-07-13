@@ -13,6 +13,7 @@ import java.util.List;
 */
 public interface AttrKeyMapper extends BaseMapper<AttrKey> {
 
+    List<AttrKeyVo> listAttrInfo();
 }
 
 

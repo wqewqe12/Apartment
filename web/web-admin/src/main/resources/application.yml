@@ -38,9 +38,21 @@ server:
 springdoc:
   default-flat-param-object: true
 
-minio:
-  endpoint: http://192.168.20.128:9000
-  access-key: minioadmin
-  secret-key: minioadmin
-  bucket-name: apartment
+#minio:
+#  endpoint: http://192.168.20.128:9000
+#  access-key: minioadmin
+#  secret-key: minioadmin
+#  bucket-name: apartment
 
+qiniuyun:
+  upload:
+    # 七牛云访问ak
+    accessKey: 8y5hbObouqEIkje9nGpRR-Kbgp0-1zdb21GjVvXA
+    # 七牛云访问sk
+    secretKey: cs6MRL60fCAdaS7xrjJZ4d6BEDTP8AKynWSrCyqw
+    # 你自己创建的空间名
+    bucket: pic12311
+    # 表示在空间下穿件什么目录存储上传的图片
+    mkdir: apartment/
+    # 七牛云分配给你空间的域名
+    domain: http://www.ctr16.xyz
