@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
+
 
 @Tag(name = "文件管理")
 @RequestMapping("/admin/file")
@@ -23,9 +25,9 @@ public class FileUploadController {
 
     @Operation(summary = "上传文件")
     @PostMapping("upload")
-    public Result<String> upload(@RequestParam MultipartFile file) {
-        String url = fileService.upload(file);
-        return Result.ok(url);
+    public Result<String> upload(@RequestParam MultipartFile file) throws IOException {
+            String url = fileService.upload(file);
+            return Result.ok(url);
     }
 
 }
