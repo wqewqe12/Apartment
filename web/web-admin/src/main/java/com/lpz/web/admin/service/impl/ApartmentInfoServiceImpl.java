@@ -74,7 +74,6 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
             feeValueQueryWrapper.eq(ApartmentFeeValue::getApartmentId, apartmentSubmitVo.getId());
             apartmentFeeValueService.remove(feeValueQueryWrapper);
         }
-
         //插入图片
         List<GraphVo> graphVoList = apartmentSubmitVo.getGraphVoList();
         //判空

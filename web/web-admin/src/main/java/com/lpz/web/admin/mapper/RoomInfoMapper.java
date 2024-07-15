@@ -1,5 +1,6 @@
 package com.lpz.web.admin.mapper;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lpz.model.entity.RoomInfo;
 import com.lpz.web.admin.vo.room.RoomItemVo;
 import com.lpz.web.admin.vo.room.RoomQueryVo;
@@ -13,6 +14,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 */
 public interface RoomInfoMapper extends BaseMapper<RoomInfo> {
 
+    IPage<RoomItemVo> pageRoomItemByQuery(Page<RoomItemVo> page, RoomQueryVo queryVo);
 }
 
 
